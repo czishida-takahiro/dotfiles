@@ -5,3 +5,7 @@ do
   rm -f ~/.$rc && ln -s ~/dotfiles/$rc ~/.$rc
 done
 
+# dein.vimのインストール
+mkdir -p ~/.vim/bundle
+curl https://raw.githubusercontent.com/Shougo/dein.vim/master/bin/installer.sh > installer.sh
+sh installer.sh ~/.vim/bundle
