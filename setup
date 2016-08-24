@@ -1,0 +1,7 @@
+#!/bin/sh
+
+for rc in gitconfig screenrc tmux.conf vim vimrc
+do
+  rm -f ~/.$rc && ln -s ~/dotfiles/$rc ~/.$rc
+done
+

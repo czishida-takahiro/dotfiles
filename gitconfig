@@ -1,0 +1,12 @@
+[color]
+  ui = auto
+[push]
+  default = tracking
+[alias]
+  lg = log --graph --decorate --oneline
+[github]
+  user = czishida-takahiro
+  email = ishida-takahiro@cyber-z.co.jp
+[user]
+  user = czishida-takahiro
+  email = ishida-takahiro@cyber-z.co.jp
